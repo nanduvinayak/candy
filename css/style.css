@@ -81,17 +81,17 @@ menu>li>a:hover {
 
   .image-section {
     display: flex;
-    justify-content: space-around; /* Distribute images with space around them */
+    justify-content: space-around; 
 }
 
 .image-column {
-    flex: 1; /* Equal distribution of space for each image column */
-    margin: 5px; /* Add margin for spacing */
+    flex: 1; 
+    margin: 5px;
 }
 
 .image-column img {
-    width: 100%; /* Make images fluid within their container */
-    display: block; /* Remove any default spacing */
+    width: 100%; 
+    display: block;
 }
 .fadein {
     opacity: 0.5;
@@ -110,16 +110,16 @@ menu>li>a:hover {
 
 .footer-content {
     display: flex;
-    flex-wrap: wrap; /* Allows for content to wrap on smaller screens */
+    flex-wrap: wrap; 
     justify-content: space-between;
 }
 .logo img {
-    width: 80px; /* Adjust the width to make the logo smaller */
+    width: 80px;
 }
 
 .left-content,
 .right-content {
-    flex: 1; /* Equal width for both sections */
+    flex: 1; 
 }
 
 .contact-section {
